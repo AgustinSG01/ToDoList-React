@@ -1,0 +1,55 @@
+.todoContainer {
+  display: flex;
+  word-break: break-all;
+  align-items: start;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+.titleAndButtonContainer {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.completeButtonContainer {
+  padding-top: 1px;
+  display: flex;
+  width: 25px;
+}
+
+.normalTitle {
+  max-width: 220px;
+  font-size: 18px;
+  margin-top: 0;
+  color: white;
+}
+
+.completedTitle {
+  max-width: 220px;
+  font-size: 18px;
+  margin-top: 0;
+  color: rgb(192, 192, 192);
+  text-decoration: line-through;
+}
+
+.completeButton {
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
