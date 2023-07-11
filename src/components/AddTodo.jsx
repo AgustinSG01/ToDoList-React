@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./addTodo.module.css";
+import styles from "../components/AddTodo.module.css";
 import { AiOutlinePlus } from "react-icons/ai";
 
 export const AddTodo = ({ addTodoFunction }) => {
@@ -20,7 +20,7 @@ export const AddTodo = ({ addTodoFunction }) => {
         className={styles.input}
       />
       <button type="submit" className={styles.addButton}>
-        <AiOutlinePlus size="16px"/>
+        <AiOutlinePlus size="16px" />
       </button>
     </form>
   );
